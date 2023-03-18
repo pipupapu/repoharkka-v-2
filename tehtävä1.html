@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>task 1</title>
 </head>
 <body>
-    
+    <form id="oma">
+        Etunimi<br>
+        <input type="text" id="etunimi"><br>
+        </br>
+        Sukunimi<br>
+        <input type="text" id="sukunimi"><br>
+        </br>
+        <button type="button" onclick="tulostanimi(oma.etunimi.value,oma.sukunimi.value)">
+        Tulosta nimi<br>
+        </button>
+    </form>
+    <div id="results"></div>
 </body>
 </html>
